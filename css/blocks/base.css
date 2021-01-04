@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+@media(min-width: 992px) {    
+    .section-new__shoes, .section-new__clothes{
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-new__shoes, .section-new__clothes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media(min-width: 992px) {
+    .section-new__shoes, .section-new__clothes{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+.section-button-wrapper {
+    text-align: center;
+}
+
+.section-blog {
+    padding-top: 30px;
+}
+
+@media(min-width: 992px) {
+    .section-blog{
+        padding-top: 40px;
+    }
+}
+
+.section-subscribe {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
